@@ -1,0 +1,5 @@
+The correct ownership hierarchy is:
+Manager → Controller → Reconciler
+
+The event-driven call flow is:
+Event → Controller → Reconciler
